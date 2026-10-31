@@ -275,6 +275,7 @@ export function createMockApi(): Api {
     { id: "parakeet-v3", kind: "asrtext", name: "Parakeet V3", get detail() { return t("Texte des transcriptions plus juste que Whisper et bien ponctué, rapide et léger, dans 18 langues européennes ; Whisper garde le minutage des mots", "More accurate, well-punctuated transcripts than Whisper, fast and light, in 18 European languages; Whisper still times the words"); }, size: 1038682448, url: "", file: "", ram_gb: 8 },
     { id: "whisper-small", kind: "asr", name: "Whisper Small", get detail() { return t("Transcription légère et rapide", "Light and fast transcription"); }, size: 190e6, url: "", file: "", ram_gb: 8 },
     { id: "whisper-turbo", kind: "asr", name: "Whisper Large v3 Turbo", get detail() { return t("Transcription et minutage des mots, très précis, 99 langues", "Transcription and word timing, very precise, 99 languages"); }, size: 574e6, url: "", file: "", ram_gb: 8 },
+    { id: "vits-zh-fanchen-c", kind: "tts", name: "fanchen-C", get detail() { return t("Voix naturelle du chinois pour les mots, les expressions et l'audio des leçons", "Natural Chinese voice for words, phrases and lesson audio"); }, size: 147e6, url: "", file: "", ram_gb: 2 },
     { id: "supertonic-3", kind: "tts", name: "Supertonic 3", get detail() { return t("Voix naturelle pour les mots, les expressions et l'audio des leçons, dans 31 langues, toutes sauf le chinois", "Natural voice for words, phrases and lesson audio, in 31 languages, all but Chinese"); }, size: 149e6, url: "", file: "", ram_gb: 8 },
   ];
 
